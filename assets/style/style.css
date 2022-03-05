@@ -3,6 +3,7 @@
   height: 75px;
   background-color: white;
 }
+/* end navbar */
 
 /* title */
 .title {
@@ -14,3 +15,52 @@ h6 {
   font-weight: 300;
   color: #867a7a;
 }
+
+.title .card .icon {
+  width: 60px;
+  height: 60px;
+  margin: auto;
+}
+
+.title .card .text-card h6 {
+  font-weight: 700;
+  font-size: 12px;
+  color: black;
+}
+
+.title .card .text-card p {
+  font-weight: 300;
+  font-size: 14px;
+  color: #867a7a;
+}
+
+.title .card .text-card .read-more a {
+  text-decoration: none;
+  color: rgb(49, 47, 47);
+  font-weight: 500;
+  transition: all 0.4s;
+}
+
+.title .card .text-card .read-more a:hover {
+  color: rgb(95, 91, 91);
+  transition: all 0.4s;
+}
+/* end title */
+
+/* hero */
+.hero .hero-img img {
+  width: 250px;
+  right: 40px;
+}
+
+.hero .title-hero span {
+  font-weight: 300;
+  color: #867a7a;
+  font-size: 28px;
+}
+
+.hero p {
+  color: #867a7a !important;
+  font-weight: 300;
+}
+/* end hero */
