@@ -1,6 +1,5 @@
 /* navbar */
 .navbar {
-  height: 75px;
   background-color: white;
 }
 /* end navbar */
@@ -8,6 +7,7 @@
 /* title */
 .title {
   margin-top: 100px;
+  min-height: 400px;
 }
 
 .title h1,
@@ -48,6 +48,9 @@ h6 {
 /* end title */
 
 /* hero */
+.hero {
+  min-height: 600px;
+}
 .hero .hero-img img {
   width: 250px;
   right: 40px;
@@ -64,3 +67,49 @@ h6 {
   font-weight: 300;
 }
 /* end hero */
+
+/* footer */
+footer {
+  min-height: 300px;
+  width: 100%;
+  bottom: 0;
+}
+
+footer p {
+  font-size: 12px;
+  font-weight: 400;
+  color: rgb(180, 180, 180);
+}
+
+footer h6 {
+  font-weight: 600;
+}
+
+footer ul li a {
+  text-decoration: none;
+  font-weight: 400;
+  color: rgb(180, 180, 180);
+  font-size: 13px;
+}
+
+footer ul li a:hover {
+  color: wheat;
+}
+
+footer .copy {
+  height: 90px;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  margin-top: 50px;
+}
+
+footer .copy p {
+  color: rgb(65, 65, 65);
+  font-size: 14px;
+}
+
+footer .copy p span {
+  font-weight: 700;
+}
+/* end footer */
