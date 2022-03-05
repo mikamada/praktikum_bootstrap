@@ -1,0 +1,16 @@
+/* navbar */
+.navbar {
+  height: 75px;
+  background-color: white;
+}
+
+/* title */
+.title {
+  margin-top: 100px;
+}
+
+.title h1,
+h6 {
+  font-weight: 300;
+  color: #867a7a;
+}
